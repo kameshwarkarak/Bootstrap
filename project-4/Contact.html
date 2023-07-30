@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .half-image{
+            background-image: url(carousel-1.jpg);
+            background-size: cover;
+        }
+
+        .main{
+            color: #15233C;
+        }
+
+        .footer{
+           color: white;
+           background-color: #15233C;
+        }
+
+        .heading{
+            color: #15233C; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid h-100 bg-dark">
+        <div class="row align-item-center text-secondary">
+          <div class="col-lg-7 d-flex ps-5 text-start">
+                <div class="col">
+                    <small class="fa fa-phone"></small>
+                    <small>+012 345 6789</small>
+                </div>
+                <div class="col">
+                    <small class="fa fa-envelope-open "></small>
+                    <small>info@example.com</small>
+                </div>
+                <div class="col">
+                    <small class="fa fa-clock-o"></small>
+                    <small>Mon - Fri : 09 AM - 09 PM</small>
+                </div>
+              </div> 
+              <div class="col-lg-5 text-end px-5">
+                <div class="col ms-4">
+                  <i class="fa fa-facebook-f p-2"></i>
+                  <i class="fa fa-twitter p-2"></i>
+                  <i class="fa fa-linkedin p-2"></i>
+                  <i class="fa fa-instagram p-2"></i>
+                </div>
+              </div>
+            </div>
+        </div>
+
+<!-- navbar start -->
+<nav class="navbar navbar-expand-lg bg-white sticky-top">
+    <div class="container-fluid text-1">
+      <h1 class="ms-5"><img src="icon-02-primary.png" alt="invalid">Insure</h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto pe-4 py-3 py-lg-0 bg-light fw-bold rounded">
+          <li class="nav-item">
+            <a class="nav-item nav-link" aria-current="page" href="insurence.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link" href="About.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link" href="Service.html">Our Services</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Features</a></li>
+              <li><a class="dropdown-item" href="#">Appointment</a></li>
+              <li><a class="dropdown-item" href="#">Team Meambers</a></li>
+              <li><a class="dropdown-item" href="#">Testimonial</a></li>
+              <li><a class="dropdown-item" href="#">404 page</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link active text-primary" href="Contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+            <button type="button" class="btn btn-primary me-4">Get A Quote</button>
+        </form>
+      </div>
+    </div>
+</nav>
+<!-- navbar end -->
+
+<!-- half image start -->
+<div class="container-fluid half-image py-5">
+    <div class="container py-5">
+        <h1 class="display-4 main fw-bolder mb-4">Contact Us</h1>
+        <nav aria-label="breadcrumb mt-4">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Pages</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+            </ol>
+          </nav>
+    </div>
+</div>
+<!-- half image end -->
+
+<!-- Contact start -->
+<div class="container py-5">
+    <div class="row">
+        <div class="col-sm-12 col-lg-6 py-5">
+            <div class="hearder">
+                <h1 class="pb-4 text-start fs-1 fw-bold main">If You Have Any Query, <br> Please Contact Us</h1>
+                <p class="text-start pb-3">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <span class="text-primary">Download Now.</span></p>
+            </div>
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-floating">
+                            <label for="gname">Your Name</label>
+                            <input type="text" class="form-control" id="gname" placeholder="Your Name">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-floating">
+                          <label for="gname">Your Email</label>
+                          <input type="email" class="form-control" id="email" placeholder="Your email">
+                        </div>
+                    </div>
+                </div>
+                <div class="col pt-3">
+                    <div class="form-floating">
+                        <label for="subject">subject</label>
+                        <input type="text" class="form-control" id="gname" placeholder="Subject">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label"></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Message"></textarea>
+                  </div>
+                  <button type="button" class="btn btn-primary btn-lg p-3 px-4">Send Message</button>
+            </form>     
+        </div>
+        <div class="col-sm-12 col-lg-6">
+            <div class="map">
+                <iframe class="rounded-2 p-5" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d113032.4957516123!2d85.24372985009843!3d27.70908794215796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1690628642492!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact end -->
+
+<!-- footer start -->
+<div class="container-fluid footer py-5">
+    <div class="row p-5">
+      <div class="col-lg-3 ">
+        <div class="mp-3 d-flex">
+          <img src="icon-02-light.png" alt="invalid">
+          <h1 class="ps-3 fw-bold">Insure</h1>
+        </div>
+        <div class="pt-3">
+          Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet <br> lorem sit clita
+        </div>
+        <div class="pt-3">
+          <i class="fa fa-twitter border p-2 rounded"></i>
+          <i class="fa fa-facebook-f border p-2 rounded"></i>
+          <i class="fa fa-youtube border p-2 rounded"></i>
+          <i class="fa fa-linkedin border p-2 rounded"></i>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="mb-3">
+          <h3>Address</h3>
+        </div>
+          <p>
+            <i class="fa fa-map-marker"></i>
+            123 Street, New York, USA
+          </p> 
+          <p>
+            <i class="fa fa-phone"></i>
+            +012 345 67890
+          </p> 
+          <p>
+            <i class="fa fa-envelope"></i>
+            info@example.com
+          </p> 
+      </div>
+      <div class="col-lg-3">
+        <h3>Quick Links</h3>
+        <p>>  About Us</p>
+        <p>>  Contact Us</p>
+        <p>>  Our Services</p>
+        <p>>  Terms & Condition</p>
+        <p>>  Support</p>
+      </div>
+      <div class="col-lg-3">
+        <h3>Newsletter</h3>
+        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Your email" aria-label="Search">
+          <button type="button" class="btn btn-info text-white fw-bold">SignUp</button>
+        </form>
+      </div>
+    </div>
+    <div class="border-top">
+      <div class="row">
+        <div class="col-lg-4">
+          <p class="pt-4 ps-4">© <span class="text-info"> Your Site Name</span>, All Right Reserved.</p>
+        </div>
+        <div class="col-lg-4">
+  
+        </div>
+        <div class="col-lg-4">
+          <p class="text-center ms-5 ps-5 pt-4">Designed By <span class="text-info"> HTML Codex</span><br>
+            Distributed By: <span class="text-info">ThemeWagon</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer end -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>      
+</body>
+</html>
